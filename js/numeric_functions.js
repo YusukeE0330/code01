@@ -19,5 +19,16 @@ function mod(a, b){
 }
 
  function R(r){
-   return r * r * Math.PI; 
+   return 2 * r * Math.PI; 
+ }
+
+ function M(m){
+   return r * r * Math.PI;
+ }
+
+ function N(n,o,p){
+   var n_m = M(n);
+   var o_m = M(o);
+   var p_m = M(p);
+   return Math.max(n_m,o_m,p_m);
  }
